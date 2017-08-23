@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties [
+<!ELEMENT properties ( comment?, entry* ) >
+
+<!ATTLIST properties version CDATA #FIXED '1.0'>
+
+<!ELEMENT comment (#PCDATA) >
+
+<!ELEMENT entry (#PCDATA) >
+
+<!ATTLIST entry key CDATA #REQUIRED>
+]>
+
+<properties>
+
+	<entry key="jdbc.driver">com.mysql.jdbc.Driver</entry>
+    <entry key="jdbc.url">jdbc:mysql://127.0.0.1:3306/dict</entry>
+    <entry key="jdbc.username">root</entry>
+    <entry key="jdbc.password">1234</entry>    
+
+
+ 	<entry key="jdbc.mssql.driver">com.mysql.jdbc.Driver</entry>
+    <entry key="jdbc.mssql.url">jdbc:mysql://127.0.0.1:3306/dict</entry>
+    <entry key="jdbc.mssql.username">root</entry>
+    <entry key="jdbc.mssql.password">1234</entry>       
+    
+ 
+</properties>
