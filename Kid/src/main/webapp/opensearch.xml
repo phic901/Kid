@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>키디딕</ShortName>
+	<Description>키디딕</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="16" height="16">http://kididic.com/favicon.ico</Image>
+	<Url type="text/html" method="GET" template="http://kididic.com/word/{searchTerms}"/>
+	<moz:SearchForm>http://kididic.com/</moz:SearchForm>
+</OpenSearchDescription>
